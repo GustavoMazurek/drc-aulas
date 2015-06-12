@@ -1,0 +1,29 @@
+@-webkit-keyframes myAnimate {
+
+    25%{
+        top: 90%;
+        right:90%;
+    }
+
+    50%{
+        right: 90%;
+        bottom: 90%;
+    }
+
+    75%{
+        left: 90%;
+        bottom: 90%;
+    }
+
+
+}
+
+.animate{
+    -webkit-animation: myAnimate 2s;
+    top: 0;
+    left: 0;
+    position: relative;
+    background-color: #ed1f24;
+    width: 100px;
+    height: 100px;
+}

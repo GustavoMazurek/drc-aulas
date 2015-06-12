@@ -1,0 +1,32 @@
+@-webkit-keyframes myAnimation{
+
+    25% {
+        background-color: #eddf4b;
+    }
+
+    50% {
+        background-color: #02ed07;
+        width: 400px;
+        height: 400px;
+        -webkit-transform: rotate(720deg);
+        -moz-transform: rotate(720deg);
+        -ms-transform: rotate(720deg);
+        -o-transform: rotate(720deg);
+        transform: rotate(720deg);
+    }
+
+    75% {
+        background-color: #3e67ed;
+    }
+
+}
+
+.animation {
+    background-color: #ed1f24;
+    width: 200px;
+    height: 200px;
+    -webkit-animation: myAnimation 8s;
+    -o-animation: myAnimation 8s;
+    -moz-animation: myAnimation 8s;
+    animation: myAnimation 8s;
+}

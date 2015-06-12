@@ -1,0 +1,15 @@
+.skew {
+    height: 300px;
+    width: 500px;
+    background-color: #ed1f24;
+    -webkit-transform: skew(30deg, 20deg);
+    -moz-transform: skew(30deg, 20deg);
+    -ms-transform: skew(30deg, 20deg);
+    -o-transform: skew(30deg, 20deg);
+    transform: skew(30deg, 20deg);
+}
+
+.text{
+    color: #fff;
+
+}
