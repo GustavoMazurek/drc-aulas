@@ -20,6 +20,6 @@
 
     }
 
-navigator.geolocation.getCurrentPosition(success, error);
+    navigator.geolocation.getCurrentPosition(success, error);
 
 })();
