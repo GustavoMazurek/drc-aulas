@@ -1,0 +1,15 @@
+.red {
+    background-color: #ed1f24;
+}
+
+.green {
+    background-color: #00ff1f;
+}
+
+.blue {
+    background-color: #1f4bff;
+}
+
+.red, .green, .blue {
+    height: 200px;
+}
