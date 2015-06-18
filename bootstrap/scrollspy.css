@@ -1,0 +1,14 @@
+body{
+    position: relative;
+}
+
+#page1 {
+    background-color: #ed1f24;
+    margin-top: 50px;
+}
+#page2 {
+    background-color: #a6a6a6;
+}
+#page3 {
+    background-color: #c45a67;
+}
