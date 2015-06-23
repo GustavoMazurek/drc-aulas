@@ -1,0 +1,13 @@
+.getSelector(@index; @size) when (@index > 0) {
+
+  .getSelector(@index - 1; @size);
+
+  .item-@{index}{
+    width: ~'@{size}px';
+    height: ~'@{size}px';
+    background-image: url('http://lorempixel.com/@{size}/@{size}/nature/@{index}');
+  }
+}
+
+.getSelector(10;400);
+

@@ -1,0 +1,21 @@
+.gap,
+.item-1,
+.item-2,
+.item-3 {
+  margin: 10px;
+  padding: 5px;
+}
+.font,
+.item-2 {
+  font-size: 24px;
+  font-family: Aria, sans-serif;
+}
+.item-1 {
+  color: #ff0000;
+}
+.item-2 {
+  color: #0000ff;
+}
+.item-3 {
+  color: #07ff00;
+}

@@ -1,0 +1,17 @@
+.test-number {
+  content: 15;
+}
+.test-pixel {
+  content: 11px;
+}
+.test-centimeters {
+  content: 2.28222222cm;
+}
+.item-1 {
+  margin: 10px;
+  padding: 5px;
+}
+.item-2 {
+  margin: 20px;
+  padding: 5px;
+}
